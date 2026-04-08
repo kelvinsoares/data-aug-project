@@ -2,3 +2,6 @@ best_vgg16.keras
 venv_pdi/
 __pycache__/
 *.pyc
+
+venv/
+.python-version
