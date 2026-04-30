@@ -8,15 +8,9 @@ Para isso, o pipeline converte amostras de áudio em Espectrogramas de Mel (repr
 ## ⚙️ Destaques Técnicos e Pipeline
 - **Processamento Digital de Imagens:** Conversão de séries temporais (áudio) em Espectrogramas de Mel.
 - **Deep Learning:** Arquitetura e treinamento de CNNs customizadas para classificação das imagens geradas.
-- **Otimização e Robustez:** Aplicação de *Data Augmentation* para melhorar a generalização do modelo e uso de SVD (Decomposição em Valores Singulares) no processamento.
-- **Código Estruturado:** Desenvolvimento focado na criação de um pipeline reprodutível, da extração dos dados à inferência.
-
-## ⚙️ Destaques Técnicos e Pipeline
-- **Processamento Digital de Imagens:** Conversão de séries temporais (áudio) em Espectrogramas de Mel.
-- **Deep Learning:** Arquitetura e treinamento de CNNs customizadas para classificação das imagens geradas.
 - **Data Augmentation e Métricas:** Aplicação de *Data Augmentation* para expandir, balancear e diversificar a base de treinamento. Essa etapa foi fundamental para evitar *overfitting*, melhorar significativamente as métricas de avaliação do modelo (como acurácia e F1-score) e garantir uma maior capacidade de generalização.
 - **Base de dados utilizada:** SVD (Saarbruecken Voice Database)
-- 
+  
 ## 🛠️ Tecnologias Utilizadas
 - **Linguagem:** Python
 - **Deep Learning:** TensorFlow/Keras
